@@ -1,0 +1,116 @@
+Python
+Python is a popular programming language and it was created by Guido van Rossum, and released in 1991 which is used for web development, software development, mathematical applications and system scripting.
+
+
+Features
+1)Easy to learn
+2)Readability
+3)Interpreted Languages
+4)Cross-Platform Language
+5)Free and Open source
+6)Object-oriented
+7)Large standard library
+8)GUI programming support
+9)Database support
+10)Easy integration with other languages like C,C++,Java etc.
+
+
+
+Scripting language
+1)Instructions written for run-time environment
+2)They dont need compilation rather need to be interpreted
+3)Scripts are included in S/W appl., Web pages, shells in OS's, embedded systems, games
+4)Typical scripting languages are intended to be very fast to learn and to write
+5)They dont have any starting point,executes from start to fisnish.
+
+
+
+Comments
+1)Comments can be used to explain Python code
+2)Comments can be used to make the code more readable
+3)Comments can be used to prevent execution when testing code
+4)Comments starts with a # and Python will ignore them
+5)Python does not really have a syntax for multi line comments, But you can use a multiline string
+6)Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it.
+
+
+
+Variables
+1)Variables are containers for storing data values
+2)Python has no command for declaring a variable
+3)A variable is created the moment you first assign a value to it
+4)Variables do not need to be declared with any particular type and can even change type after they have been set.
+
+
+
+Data Types
+In programming, data type is an important concept, Variables can store data of different types, and different types can do different things, Python has the following data types built-in by default, in these categories: 
+Text Type:  str 
+Numeric Types:   int, float, complex 
+Sequence Types: list, tuple, range 
+Mapping Type:  dict 
+Set Types: set, frozenset 
+Boolean Type: bool 
+Binary Types:  bytes, bytearray, memoryview
+You can get the data type of any object by using the type() function:
+x = 5
+print(type(x))
+.
+
+
+Operators
+Operators are used to perform operations on variables and values, Python divides the operators in the following groups: 
+Arithmetic operators: +, -, *, /, %, **, //
+Assignment operators: =, +=, -=, *=, /=, %=, //=, **=, &=, |=, ^=, >>=, <<=
+Comparison operators: ==, !=, >, <, >=, <= 
+Logical operators: and, or, not 
+Identity operators: is, is not 
+Membership operators: in, not in 
+Bitwise operators: &, |,  ^, ~, <<, >> 
+.
+
+
+Functions
+A function is a block of code which only runs when it is called, You can pass data, known as parameters into a function, A function can return data as a result, In Python a function is defined using the def keyword. 
+
+
+
+Modules
+A module is same as a code library, A file containing a set of functions you want to include in your application, To create a module just save the code you want in a file with the file extension dot py.
+
+
+
+Void Function
+Since Python is dynamic-typed and you don't specify a return type when defining a function, then you can return anything with any type, that includes None which is the default return value (when you don't return anything, the function actually returns None at the bottom of function)
+Functions like this are called "void", and they return None, Python's special object for "nothing", Also a simple return is equivalent to return None.
+.
+
+
+List
+Lists are used to store multiple items in a single variable,
+Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage
+Lists are created using square brackets []
+.
+
+
+Tuple
+Tuples are used to store multiple items in a single variable,
+Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage,
+A tuple is a collection which is ordered and unchangeable,
+Tuples are written with round brackets ().
+
+
+Set
+Sets are used to store multiple items in a single variable,
+Set is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Tuple, and Dictionary, all with different qualities and usage
+A set is a collection which is both unordered and unindexed,
+Sets are written with curly brackets {}.
+
+
+
+Dictionary
+Dictionaries are used to store data values in key:value pairs,
+A dictionary is a collection which is ordered*, changeable and does not allow duplicates
+As of latest Python version, dictionaries are ordered and earlier, dictionaries are unordered
+Dictionaries are written with curly brackets, and have keys and values.
+
