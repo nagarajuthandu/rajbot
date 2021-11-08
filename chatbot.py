@@ -17,8 +17,8 @@ from nltk.stem import WordNetLemmatizer
 nltk.download('popular', quiet=True) # for downloading packages
 
 # uncomment the following only the first time
-#nltk.download('punkt') # first-time use only
-#nltk.download('wordnet') # first-time use only
+nltk.download('punkt') # first-time use only
+nltk.download('wordnet') # first-time use only
 
 
 #Reading in the corpus
@@ -78,20 +78,20 @@ def bot(msg):
         if(user_response!='bye'):
             if(user_response=='thanks' or user_response=='thank you' ):
              flag=False
-             res = "ROBO: You are welcome.."
+             res = "Bot: You are welcome.."
              return res
             else:
                 if(greeting(user_response)!=None):
-                    res = "ROBO: "+greeting(user_response)
+                    res = "Bot: "+greeting(user_response)
                     return res
                 else:
                     
-                    res = "ROBO: "+response(user_response)
+                    res = "Bot: "+response(user_response)
                     return res
                     
         else:
             flag=False
-            res = "ROBO: Bye! take care.."    
+            res = "Bot: Bye! take care.."    
             return res
         
 
