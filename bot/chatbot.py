@@ -76,17 +76,17 @@ while(flag==True):
     if(user_response!='bye'):
         if(user_response=='thanks' or user_response=='thank you' ):
             flag=False
-            print("ROBO: You are welcome..")
+            print("Bot: You are welcome..")
         else:
             if(greeting(user_response)!=None):
-                print("ROBO: "+greeting(user_response))
+                print("Bot: "+greeting(user_response))
             else:
-                print("ROBO: ",end="")
+                print("Bot: ",end="")
                 print(response(user_response))
                 sent_tokens.remove(user_response)
     else:
         flag=False
-        print("ROBO: Bye! take care..")    
+        print("Bot: Bye! take care..")    
         
         
 
