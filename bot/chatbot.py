@@ -69,7 +69,7 @@ def response(user_response):
 
 
 flag=True
-print("ROBO: Hi! I will answer your queries about Python. If you want to exit, type Bye!")
+print("Bot: Hi! I will answer your queries about Python. If you want to exit, type Bye!")
 while(flag==True):
     user_response = input("You:")
     user_response=user_response.lower()
