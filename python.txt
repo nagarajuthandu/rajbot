@@ -1,7 +1,7 @@
-Ground Floor,Premium Fashion,Premium Bags and Accessories,Premium Footwear’s,Mixed Fashion,Premium Watches.
+Ground Floor Premium Fashion Premium Bags and Accessories Premium Footwear’s Mixed Fashion Premium Watches.
 
-First Floor,Men’s Fashion,Sportswear,Mixed Fashion,Footwear,Bags and Accessories.
+First Floor Men’s Fashion Sportswear Mixed Fashion Footwear Bags and Accessories.
 
-Second Floor,Women Fashion,Children Fashion and toys,Ethnic Wear,Electronics,Mobiles and Accessories,Bag and Accessories,Kids Entertainment.,Premium Jewelry.
+Second Floor Women Fashion Children Fashion and toys Ethnic Wear Electronics Mobiles and Accessories Bag and Accessories Kids Entertainment. Premium Jewelry.
 
-Third Floor,Food,Cinemas,Family Entertainment,Pubs,Food Court,Restaurant,Bowling
+Third Floor Food Cinemas Family Entertainment Pubs Food Court Restaurant Bowling.
